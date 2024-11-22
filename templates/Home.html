@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieRecSys Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="static/style.css">
+  <style>
+    /* Additional styling for a designer touch */
+   
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MovieRecSys</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <!-- Home tag -->
+          <li class="nav-item">
+            <a class="nav-link" href="{% url "about" %}">About</a>
+          </li>
+        </ul>
+        <!-- Search Box -->
+        <form class="d-flex search-box" role="search">
+          <input class="form-control me-2" type="search" name="section1" placeholder="Movie Name" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">Movie Suggestion</h1>
+      <div class="columns is-multiline">
+        
+        <!-- Movie Card 1 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster1}}" alt="Movie 1">
+              </figure>
+            </div>
+            
+            <div class="card-content">
+              <p class="movie-title">{{movie1}}</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Movie Card 2 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster2}}" alt="Movie 2">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="movie-title">{{movie2}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 3 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster3}}" alt="Movie 3">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="movie-title">{{movie3}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 4 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster4}}" alt="Movie 4">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="movie-title">{{movie4}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 5 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster5}}" alt="Movie 5">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="movie-title">{{movie5}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 6 -->
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{poster6}}" alt="Movie 6">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="movie-title">{{movie6}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css">
+  <style>
+    /* Custom animations */
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      .fade-in {
+        animation: fadeIn 1.5s ease-in-out;
+      }
+  
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+  
+      .divider {
+        height: 3px;
+        width: 80px;
+        background-color: #ffffff;
+        margin: 0 auto 1.5rem;
+        border-radius: 2px;
+      }
+  
+      .description-section {
+        margin-top: 1.5rem;
+        text-align: justify;
+        line-height: 1.8;
+        font-family: 'Georgia', serif;
+        font-size: 1.2rem;
+        color: #4a4a4a;
+      }
+  
+      .text-area {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-family: 'Georgia', serif;
+        font-size: 1.1rem;
+      }
+  
+      .hero .home-button {
+        display: inline-block;
+        margin-top: 1rem;
+        background-color: #2de6ce;
+        color: #3273dc;
+        border: 1px solid #3273dc;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+  
+      .hero .home-button:hover {
+        background-color: #3273dc;
+        color: #fff;
+      }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title section-title fade-in">About Us</h1>
+        <div class="divider fade-in"></div>
+        <a href="/" class="home-button fade-in">Home</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Description Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered fade-in">Who Am I</h2>
+      <div class="description-section fade-in">
+        <p>
+            I am a skilled Django Developer and Data Analyst with expertise in Django, Python, and databases such as MySQL and MongoDB. I also have a solid understanding of Machine Learning and AI, alongside proficiency in tools like Power BI for data visualization and analysis.
+        </p>
+      </div>
+      <div class="text-area fade-in">
+        <p>
+          What it is for:
+          <br><br>
+          "At MovieRecSys, we believe that great stories have the power to transform lives. My goal is to offer users a diverse range of movie options that align with their tastes and interests—whether it's a timeless classic, a hidden gem, or the latest blockbuster. I am dedicated to providing personalized recommendations that not only entertain but also inspire, drawing people closer to the magic of storytelling. Currently focused on English movies, we’re excited to soon introduce a section for Hindi movie suggestions, offering tailored recommendations based on your unique preferences."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="section has-background-light">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered fade-in">Rohit Sudhakar Jawalgaonkar</h2>
+      
+      <!-- Owner Information -->
+  
+      <!-- Contact Information -->
+      <div class="contact-info has-text-centered fade-in">
+        <p>Contact: 8237773211</p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <p>Email: rohitjawalgaonkar3@gmail.com</p>
+        </p>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    background-color: #444444;
+}
+.navbar {
+    background: linear-gradient(35deg, #f8ad6b, #d15a1a);
+    padding: 1rem;
+    transition: all 0.3s ease;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  .navbar-brand:hover {
+    color: #f9e4d4 !important;
+  }
+  .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #f9e4d4 !important;
+  }
+  .search-box input {
+    border-radius: 20px 0 0 20px;
+  }
+  .search-box button {
+    border-radius: 0 20px 20px 0;
+  }
+  .title{
+    color: rgb(192, 219, 218);
+  }
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-content {
+    text-align: center;
+  }
+  .movie-title {
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+  .movie-title:hover {
+    color: #ff6f61;
+  }
+
+  @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .divider {
+      height: 3px;
+      width: 80px;
+      background-color: #ffffff;
+      margin: 0 auto 1.5rem;
+      border-radius: 2px;
+    }
+
+    .description-section {
+      margin-top: 1.5rem;
+      text-align: justify;
+      line-height: 1.8;
+      font-family: 'Georgia', serif;
+      font-size: 1.2rem;
+      color: #4a4a4a;
+    }
+
+    .text-area {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-family: 'Georgia', serif;
+      font-size: 1.1rem;
+    }
+
+    .hero .home-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #fff;
+      color: #3273dc;
+      border: 1px solid #3273dc;
+      border-radius: 5px;
+      font-weight: bold;
+      padding: 0.5rem 1.5rem;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .hero .home-button:hover {
+      background-color: #3273dc;
+      color: #fff;
+    }
+
+    .hero .home-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2de6ce;
+      color: #3273dc;
+      border: 1px solid #3273dc;
+      border-radius: 5px;
+      font-weight: bold;
+      padding: 0.5rem 1.5rem;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
